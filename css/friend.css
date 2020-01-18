@@ -49,3 +49,25 @@
 .friend .chat__timestamp{
     font-size: 12px;
 }
+
+.friend__column .friend__now-listening{
+    overflow: hidden;
+    width: 130px;
+    padding: 7px 5px;
+    background-color: white;
+    border: 1.5px solid #5ddf82;
+    border-radius: 20px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.friend__now-listening span{
+    margin-right: 7px;
+    opacity: 0.7;
+}
+
+.friend__now-listening i {
+    color: #5ddf82;
+}
