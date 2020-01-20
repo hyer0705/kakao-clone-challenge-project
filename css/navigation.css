@@ -14,3 +14,34 @@
     align-items: center;
     font-size: 20px;
 }
+
+.nav__list .nav__list-item{
+    position: relative;
+}
+
+.nav__list-item .nav__badge{
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    color: white;
+    background-color: #ff6128;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+/* .g-badge{
+    color: white;
+    background-color: #ff6128;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 13px;
+} */
