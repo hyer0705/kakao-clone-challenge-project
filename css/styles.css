@@ -18,3 +18,12 @@ a{
     color: inherit;
     text-decoration: none;
 }
+
+/* 임시로 해보기 */
+main {
+    padding-top: 100px;
+}
+
+.settings{
+    padding-top: 110px;
+}
