@@ -20,6 +20,28 @@
     width: 60px;
 }
 
+/* group chat user avatar */
+.friend__avatar--group{
+    width: 27px;
+    height: 27px;
+    border-radius: 38%;
+    margin-right: 3px;
+}
+
+.friend__avatar--group:nth-child(2n){
+    margin-right: 0px;
+}
+
+.friend__column .friend__group-chat-box{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
 .friend .friend__column{
     display: flex;
     align-items: center;
@@ -38,8 +60,14 @@
 
 .friend__column .friend__preview,
 .friend__column .friend__status,
-.friend__column--time-and-badge .chat__timestamp{
+.friend__column--time-and-badge .chat__timestamp,
+.friend__column i,
+.friend__column .chat__user-cnt{
     opacity: 0.7;
+}
+
+.friend__column .chat__user-cnt{
+    margin-right: 5px;
 }
 
 .friend__column .friend__preview,
