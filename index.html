@@ -48,6 +48,52 @@
         </div>
     </header>
 
+    <!-- main chat list -->
+    <main class="chats">
+        <ul class="chats__list">
+            <!-- 개인 채팅방 -->
+            <li class="chats__chat chat">
+                <div class="chat__column">
+                    <img src="images/avatar.jpg" alt="avatar" class="chat__avatar g-avatar">
+                    <div class="chat__content">
+                        <span class="chat__username">Esu</span>
+                        <span class="chat__preview">I have a cold...:(</span>
+                    </div>
+                </div>
+                <div class="chat__column">
+                    <div class="chat__show-current">
+                        <span class="chat__timestamp">13:30</span>
+                        <!-- 3개의 메시지가 새로 왔다는 걸 표시 꾸며줘야함! -->
+                        <!-- 추후에 g-badge는 커맨트 위에도 쓸 예정! -->
+                        <span class="chat__message-cnt g-badge">3</span>
+                    </div>
+                </div>
+            </li>
+
+
+            <!-- 단체 채팅방 -->
+            <li class="chats__chat chat">
+                <div class="chat__column">
+                    <!-- 추후에 사진 3개 더 추가 -->
+                    <img src="images/avatar.jpg" alt="avatar" class="chat__avatar">
+                    <div class="chat__content">
+                        <span class="chat__username">high school friends</span>
+                        <span class="chat__user-cnt">9</span>
+                        <!-- <i class="fas fa-bell-slash"></i> -->
+                        <span class="chat__preview">Let's go to get wasted!</span>
+                    </div>
+                </div>
+                <div class="chat__column">
+                    <div class="chat__show-current">
+                        <span class="chat__timestamp">Yesterday</span>
+                        <!-- 3개의 메시지가 새로 왔다는 걸 표시 꾸며줘야함! -->
+                        <span class="chat__message-cnt">10</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </main>
+
     <!-- navigation -->
     <nav class="nav">
         <ul class="nav__list">
