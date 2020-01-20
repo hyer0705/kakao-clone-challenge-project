@@ -23,25 +23,16 @@
     position: absolute;
     top: -8px;
     right: -10px;
-    color: white;
-    background-color: #ff6128;
-    width: 18px;
-    height: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    font-size: 13px;
 }
 
-/* .g-badge{
+.g-badge{
     color: white;
     background-color: #ff6128;
-    width: 18px;
-    height: 18px;
+    width: 17px;
+    height: 17px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    font-size: 13px;
-} */
+    font-size: 11px;
+}

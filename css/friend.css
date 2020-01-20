@@ -4,26 +4,60 @@
     align-items: center;
 }
 
+.friend__column .friend__avatar{
+    width: 50px;
+    border-radius: 38%;
+    margin-right: 10px;
+}
+
+/* friend my user avatar & more my user avatar */
+.friend__avatar.g-avatar{
+    width: 70px;
+}
+
+/* chats user avatar */
+.friend__avatar.m-avatar{
+    width: 60px;
+}
+
 .friend .friend__column{
     display: flex;
     align-items: center;
 }
 
-.friend__column .friend__avatar{
-    width: 50px;
-    border-radius: 35%;
+.friend__content .friend__username {
+    display: block;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
 
-.friend__avatar.g-avatar{
-    width: 70px;
+.friend__content .friend__content-exbox{
+    display: flex;
+    margin-bottom: 5px;
 }
 
-.friend__column .friend__content{
-    margin-left: 15px;
+.friend__column .friend__preview,
+.friend__column .friend__status,
+.friend__column--time-and-badge .chat__timestamp{
+    opacity: 0.7;
+}
+
+.friend__column .friend__preview,
+.friend__column .friend__status,
+.friend__column--time-and-badge .chat__timestamp{
+    font-size: 13px;
+}
+
+.chats .chats__chat{
+    margin-bottom: 30px;
+}
+
+.friend .friend__column--time-and-badge{
     display: flex;
     flex-direction: column;
-}   
+    align-items: flex-end;
+}
 
-.friend__column .friend__content-exbox{
-    margin-bottom: 15px;
+.friend__column--time-and-badge .chat__timestamp{
+    margin-bottom: 5px;
 }
