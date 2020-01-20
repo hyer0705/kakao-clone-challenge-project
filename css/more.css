@@ -1,0 +1,109 @@
+
+.more .more__header{
+    margin-bottom: 20px;
+}
+
+.more .more__kakao-pay{
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.more__kakao-pay .kakao-pay__column{
+    display: flex;
+}
+
+.kakao-pay__column .kakao-pay__content:first-child,
+.kakao-pay__content .kakao-pay__money{
+    margin-right: 10px;
+}
+
+.kakao-pay__content i,
+.kakao-pay__content .kakao-pay__money{
+    font-size: 15px;
+}
+
+.kakao-pay__content .kakao-pay__title{
+    font-weight: 500;
+}
+
+.kakao-pay__content .kakao-pay__money{
+    opacity: 0.7;
+}
+
+.kakao-pay__content .kakao-pay__btn{
+    padding: 3px 7px;
+    font-size: 14px;
+    background-color: #fdfdfd;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.kakao-pay__column .kakao-pay__pay{
+    font-size: 14px;
+    padding-left: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.kakao-pay__column .kakao-pay__pay:first-child{
+    padding-right: 15px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.more .more__btn-list{
+    padding: 0px 30px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more__btn-list .more__btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 33px;
+    margin-bottom: 30px;
+}
+
+
+.more__btn .more__btn-icon{
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.more__btn .more__btn-title{
+    font-size: 12px;
+    text-align: center;
+}
+
+.more .more__kakao-mail{
+    padding: 15px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+.more__kakao-mail .kakao-mail__column{
+    display: flex;
+}
+
+.more__kakao-mail .kakao-mail__content{
+    margin-right: 10px;
+}
+
+.more__kakao-mail .kakao-mail__make-link{
+    opacity: 0.7;
+    cursor: pointer;
+}

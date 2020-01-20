@@ -98,3 +98,11 @@
     align-items: center;
     border-radius: 5px;
 }
+
+.friend__column .friend__btn{
+    padding: 10px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
