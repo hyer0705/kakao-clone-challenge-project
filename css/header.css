@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.header .header__title{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header .header__icon{
+    font-size: 20px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+.header .header__chat-column{
+    display: flex;
+    align-items: center;
+}
+
+.header__chat-column i {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.header .header__setting-column{
+    font-size: 20px;
+}
