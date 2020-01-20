@@ -1,0 +1,29 @@
+.friend{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.friend .friend__column{
+    display: flex;
+    align-items: center;
+}
+
+.friend__column .friend__avatar{
+    width: 50px;
+    border-radius: 35%;
+}
+
+.friend__avatar.g-avatar{
+    width: 70px;
+}
+
+.friend__column .friend__content{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}   
+
+.friend__column .friend__content-exbox{
+    margin-bottom: 15px;
+}
