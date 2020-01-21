@@ -19,10 +19,23 @@
     position: relative;
 }
 
+@keyframes spinBadge{
+    0%{
+        transform: rotateY(.5turn);
+    }
+    50%{
+        transform: rotateY(.5turn);
+    }
+    100%{
+        transform: none;
+    }
+}
+
 .nav__list-item .nav__badge{
     position: absolute;
     top: -8px;
     right: -10px;
+    animation: spinBadge 1s ease-out infinite;
 }
 
 .g-badge{
@@ -35,6 +48,19 @@
     align-items: center;
     border-radius: 50%;
     font-size: 11px;
+}
+
+@keyframes scaleIcon{
+    0%, 100%{
+        transform: scale(1.5, 1.5);
+    }
+    50%{
+        transform: none;
+    }
+}
+
+.nav__list--special:hover{
+    animation: scaleIcon 0.5s ease-in-out infinite;
 }
 
 @keyframes appearNav{
