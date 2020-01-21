@@ -140,10 +140,25 @@
     align-self: flex-end;
 }
 
+@keyframes spinAvatar{
+    0%{
+        transform: rotateY(1turn);
+    }
+    50%{
+        transform: none;
+    }
+    100%{   
+        transform: rotateY(1turn);
+    }
+}
+
 .incoming-message img {
     width: 40px;
     border-radius: 20px;
     margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+    animation: spinAvatar 2s linear infinite;
   }
 
   .message .message__bubble {
@@ -196,5 +211,7 @@
 }
 
 .sent-message{
+    transform: translateX(250px);
     animation: sentAni 1s ease-out forwards;
+    animation-delay: 1s;
 }

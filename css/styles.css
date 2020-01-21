@@ -41,3 +41,17 @@ main {
 .news{
     padding-top: 125px;
 }
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        transform: none;
+    }
+}
+
+main{
+    animation: fadeIn 0.5s ease-in-out;
+}
