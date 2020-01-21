@@ -76,19 +76,20 @@
 .message{
     display: flex;
     align-items: flex-start;
-    width: 55%;
     font-size: 14px;
     margin-bottom: 20px;
 }
 
-.message .message__timestamp{
+.incoming-message .message__timestamp{
     align-self: flex-end;
     font-size: 12px;
     margin: 0px 5px;
 }
 
-.message .message__content{
-    padding: 1px;
+.sent-message .message__timestamp{
+    align-self: flex-end;
+    font-size: 12px;
+    margin: 0px 5px;
 }
 
 .incoming-message .message__author{
@@ -114,17 +115,23 @@
 
   .message .message__bubble {
     background-color: white;
-    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
-      0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
-    padding: 15px 15px;
+    color: white;
+    font-weight: 700;
+    padding: 10px 15px;
     border-radius: 20px;
     font-size: 14px;
+    display: block;
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+    /* box-shadow: 0 30px 60px -8px rgba(50, 50, 88, 0.25),
+      0 18px 36px -16px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025); */
   }
 
 .incoming-message .message__bubble{
     border-top-left-radius: 0px;
+    background-image: linear-gradient(to right, #ee9ca7, #eb82ca);
 }
 
 .sent-message .message__bubble{
     border-top-right-radius: 0px;
+    background-image: linear-gradient(to left, #8ae988, #41e7b8);
 }
