@@ -1,0 +1,8 @@
+.tab-bar{
+    padding: 0px 20px;
+    position: fixed;
+    top: 30px;
+    left: 0px;
+    width: 100%;
+    background-color: lightgreen;
+}
