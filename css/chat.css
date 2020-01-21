@@ -5,7 +5,7 @@
 .chat--main {
     padding-top: 115px;
     background-image: url("../images/bgimg.png");
-    min-height: 1000vh;
+    min-height: 120vh;
     /* height: 100%; */
 }
 
