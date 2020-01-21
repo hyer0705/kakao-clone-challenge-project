@@ -11,6 +11,7 @@
 @import "chat.css";
 @import "news-tab-bar.css";
 @import "news.css";
+@import "bigscreen.css";
 
 *{
     box-sizing: border-box;
