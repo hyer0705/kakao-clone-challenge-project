@@ -6,11 +6,18 @@
     padding-top: 120px;
 }
 
-.chat{
+.chat--main {
     background-image: url("../images/bgimg.png");
     /* min-height: 100vh; */
     height: 100%;
 }
+/*
+.chat{
+    background-image: url("../images/bgimg.png");
+     min-height: 100vh; 
+    height: 100%;
+}
+*/
 
 .chat__write{
     background-color: #f9f9fa;
